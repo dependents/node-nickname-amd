@@ -1,0 +1,42 @@
+{
+  "name": "nickname-amd",
+  "version": "1.0.0",
+  "description": "Get the variable name associated with a given path for AMD modules",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jscs -p google test/test.js index.js && mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrjoelkemp/node-nickname-amd.git"
+  },
+  "keywords": [
+    "variable",
+    "lookup",
+    "amd",
+    "module",
+    "dependency",
+    "alias"
+  ],
+  "author": "Joel Kemp <joel@mrjoelkemp.com> (http://www.mrjoelkemp.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrjoelkemp/node-nickname-amd/issues"
+  },
+  "homepage": "https://github.com/mrjoelkemp/node-nickname-amd",
+  "dependencies": {
+    "ast-module-types": "~2.2.2",
+    "get-amd-module-type": "~2.0.3",
+    "just-parse": "~1.0.0",
+    "node-source-walk": "~1.4.1",
+    "precinct": "~2.4.2",
+    "resolve-dependency-path": "~1.0.1"
+  },
+  "devDependencies": {
+    "jscs": "~1.11.3",
+    "mocha": "~2.1.0"
+  }
+}
